@@ -1,0 +1,79 @@
+
+/*  BEST WAY (make sure you are using version 6.1.1) */
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+body {
+  background-color: lightblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 2.5;
+    color: rgb(red, green, blue);
+}
+
+h1{
+color: rgb(red, green, blue);
+font-family:'Times New Roman';
+}
+h2{
+  color: rgb(red, green, blue);
+  font-family:'Times New Roman';
+}
+
+a {
+  font-weight: 15px;
+  color: blue;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 850px;
+}
+
+.card-white{
+  background-color: aliceblue;
+  box-shadow: white;
+  padding: 10px;
+  margin: 20px;
+  width: 800px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.text-center{
+text-align: center;
+}
+
+.btn-blue{
+  background-color: blue;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.profile-picture {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: 0% 70%;
+  border-radius: 75%;
+}
+
+.list-inline li {
+  display:inline-block
+}
+
+.list-inline {
+  font-size: 45px;
+  list-style: none;
+  padding: 0;
+}
+
+.social-icon {
+  color: rgba(0,0,0,0.3);
+  font-size: 65px;
+}
+
+.social-icon:hover {
+  color: rgba(0,0,0,0.7);
+}
